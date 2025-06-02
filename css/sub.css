@@ -1,0 +1,19 @@
+header i.fas{color: #333;}
+.gnb > ul > li > a{
+  color: #333;
+}
+header{position: static;}
+header i.fas{color: #333;}
+.gnb > ul > li > a{
+  color: #333;
+}
+
+/*서브화면 배경서식*/
+.sub_top{
+  background: url(../images/bg-main-test-driving.jpg.jpg) 100%;height: 400px;
+  color: var(--m_bg_color);text-align: center;
+}
+.sub_top nav{text-align: left; line-height: 150px;
+padding-left: 200px; font-size: var(--f_size2);}
+.sub_top > h2{font-size: 40px; padding: 20px 0px;}
+.sub_top > p{font-size: 20px;}

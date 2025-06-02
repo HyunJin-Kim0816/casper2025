@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* 로그인 폼 래퍼 */
+.login_wrapper {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  
+}
+
+/* 로그인 제목 스타일 */
+.login_wrapper h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+/* 인풋 박스 스타일 */
+input[type="text"], input[type="password"], input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="password"] {
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #535ce4;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #535ce4;
+}
+
+/* 체크박스 스타일 */
+label {
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+  color: #000;
+}
+
+
+.link{text-align: center;}
+.link a{text-decoration: none; color: inherit;}
+.link a:first-of-type {
+  border-right: 1px solid #000;
+  padding-right: 10px;  
+}
+.link a:nth-child(2){
+  border-right: 1px solid #000;
+  padding-right: 10px;  
+}
+
